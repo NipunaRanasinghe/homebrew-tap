@@ -1,9 +1,8 @@
 class Homecider < Formula
   desc "Turn any Mac into a private home server"
   homepage "https://github.com/NipunaRanasinghe/homecider"
-  # At launch: set sha256 to the checksum of the v0.1.0 tag tarball (shasum -a 256).
   url "https://github.com/NipunaRanasinghe/homecider/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "f974b5ce4eb9ffb96cfec7b22ba9e8df8ce3faeaae135d8454bbd2f4c371d23d"
   license "MIT"
   head "https://github.com/NipunaRanasinghe/homecider.git", branch: "main"
 
